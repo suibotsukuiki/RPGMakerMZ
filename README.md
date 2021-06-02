@@ -1,0 +1,2 @@
+# RPGMakerMZ
+RPGツクールMZ用のプラグインです。
