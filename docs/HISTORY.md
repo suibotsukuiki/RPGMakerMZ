@@ -3,6 +3,6 @@
 一番上が最新です。
 
 ### Sbm_ReversibleKeyPatch.js
-- 1.0.0 : 初版
+- 1.0.0 2021/06/05 初版
 ### Sbm_NumericKeyPatch.js
-- 1.0.0 : 初版
+- 1.0.0 2021/06/06 初版
