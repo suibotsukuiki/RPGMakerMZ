@@ -4,3 +4,5 @@
 
 ### Sbm_ReversibleKeyPatch.js
 - 1.0.0 : 初版
+### Sbm_NumericKeyPatch.js
+- 1.0.0 : 初版

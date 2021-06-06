@@ -29,3 +29,5 @@ RPGツクールMZ用のプラグインです。
  変更履歴は[HISTORY](https://github.com/suibotsukuiki/RPGMakerMZ/blob/main/docs/HISTORY.md)に記載しています。
 ### [Sbm_ReversibleKeyPatch.js](https://raw.githubusercontent.com/suibotsukuiki/RPGMakerMZ/main/Sbm_ReversibleKeyPatch.js)
  左右兼用のキー配置を適用するキーパッチです。
+### [Sbm_NumericKeyPatch.js](https://raw.githubusercontent.com/suibotsukuiki/RPGMakerMZ/main/Sbm_NumericKeyPatch.js)
+ テンキー用のキーパッチです。パラメータで任意のキー設定を割り当てられます。
