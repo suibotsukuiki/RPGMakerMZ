@@ -31,3 +31,5 @@ RPGツクールMZ用のプラグインです。
  左右兼用のキー配置を適用するキーパッチです。
 ### [Sbm_NumericKeyPatch.js](https://raw.githubusercontent.com/suibotsukuiki/RPGMakerMZ/main/Sbm_NumericKeyPatch.js)
  テンキー用のキーパッチです。パラメータで任意のキー設定を割り当てられます。
+### [Sbm_GamingKeyPatch.js](https://raw.githubusercontent.com/suibotsukuiki/RPGMakerMZ/main/Sbm_GamingKeyPatch.js)
+ ゲームパッド用のキーパッチです。パラメータで任意のキー設定を割り当てられます。
