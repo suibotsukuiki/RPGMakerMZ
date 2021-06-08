@@ -5,4 +5,7 @@
 ### Sbm_ReversibleKeyPatch.js
 - 1.0.0 2021/06/05 初版
 ### Sbm_NumericKeyPatch.js
+- 1.0.0 2021/06/08
+    - 一時オブジェクトを単一化
+    - ヘルプの加筆修正
 - 1.0.0 2021/06/06 初版

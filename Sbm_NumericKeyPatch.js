@@ -1,6 +1,6 @@
 /*
 ===============================================================================
- RPG Maker MZ - Sbm NumericKeyPatch (1.0.0)
+ RPG Maker MZ - Sbm NumericKeyPatch (1.0.1)
 ===============================================================================
  Copyright (c) 2021 Suib
  This software is released under the MIT License.
@@ -10,7 +10,7 @@
 
 /*:
  * @target MZ
- * @plugindesc This plugin assigns any key settings to the numeric keypad.
+ * @plugindesc This plugin assigns any key settings to the Numpad.
  * @author Suib
  * @url https://github.com/suibotsukuiki/RPGMakerMZ/blob/main/Sbm_NumericKeyPatch.js
  * @base PluginCommonBase
@@ -18,7 +18,7 @@
  *
  * @param keyMapArrNumber
  * @text keySettings:Number
- * @desc Assign the operation to the key to "0-9" (multiple can be selected).
+ * @desc Assign operations to the key to "0-9" (multiple can be selected).
  * @type struct<KeyMapNumber>[]
  * @default []
  * 
@@ -32,6 +32,7 @@
  *
  * -- Summary --
  * This plugin assigns any key settings to the numeric keypad.
+ * Unassigned keys retain their default key settings.
  * 
  * -- Usage --
  * Select the setting target from "Number" or "Symbol" in the plugin parameters.
@@ -158,6 +159,7 @@
  *
  * 【概要】
  * このプラグインは、テンキーに任意のキー設定を割り当てます。
+ * 割り当てが行われなかったキーはデフォルトのキー設定を保持します。
  * 
  * 【使用方法】
  * ・プラグインパラメータで、設定対象のキーを「数字」または「記号」から選択します。
@@ -265,21 +267,19 @@
     const script = document.currentScript;
     const param = PluginManagerEx.createParameter(script);
 
-    const keyMapNumber = {};
+    const keyMapNumpad = {};
     if (Array.isArray(param.keyMapArrNumber)) {
         for (const keyMap of param.keyMapArrNumber) {
-            Object.assign(keyMapNumber, { [String(keyMap.keyCode)]: keyMap.operation });
+            Object.assign(keyMapNumpad, { [String(keyMap.keyCode)]: keyMap.operation });
         }
     }
-    const keyMapSymbol = {};
     if (Array.isArray(param.keyMapArrSymbol)) {
         for (const keyMap of param.keyMapArrSymbol) {
-            Object.assign(keyMapSymbol, { [String(keyMap.keyCode)]: keyMap.operation });
+            Object.assign(keyMapNumpad, { [String(keyMap.keyCode)]: keyMap.operation });
         }
     }
     // ==============================
     // Input
     // ==============================
-    Object.assign(Input.keyMapper, keyMapNumber);
-    Object.assign(Input.keyMapper, keyMapSymbol);
+    Object.assign(Input.keyMapper, keyMapNumpad);
 })();
