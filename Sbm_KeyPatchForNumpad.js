@@ -1,6 +1,6 @@
 /*
 ===============================================================================
- RPG Maker MZ - Sbm NumericKeyPatch (-.-.-)
+ RPG Maker MZ - Sbm KeyPatchForNumpad (1.0.0)
 ===============================================================================
  Copyright (c) 2021 Suib
  This software is released under the MIT License.
@@ -28,7 +28,7 @@
  * @type struct<KeyMapSymbol>[]
  * @default []
  * 
- * @help Sbm_NumericKeyPatch.js
+ * @help Sbm_KeyPatchForNumpad.js
  *
  * -- Summary --
  * This plugin assigns any key settings to the numeric keypad.
@@ -155,7 +155,7 @@
  * @type struct<KeyMapSymbol>[]
  * @default []
  * 
- * @help Sbm_NumericKeyPatch.js
+ * @help Sbm_KeyPatchForNumpad.js
  *
  * 【概要】
  * このプラグインは、テンキーに任意のキー設定を割り当てます。

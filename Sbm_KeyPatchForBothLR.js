@@ -1,6 +1,6 @@
 /*
 ===============================================================================
- RPG Maker MZ - Sbm ReversibleKeyPatch (-.-.-)
+ RPG Maker MZ - Sbm KeyPatchForBothLR (1.0.0)
 ===============================================================================
  Copyright (c) 2021 Suib
  This software is released under the MIT License.
@@ -14,7 +14,7 @@
  * @author Suib
  * @url https://github.com/suibotsukuiki/RPGMakerMZ/blob/main/Sbm_KeyPatchForBothLR.js
  *
- * @help Sbm_ReversibleKeyPatch.js
+ * @help Sbm_KeyPatchForBothLR.js
  *
  * -- Summary --
  * this plugin provides key patch that For both left and right uses.
@@ -67,7 +67,7 @@
  * @author 水部
  * @url https://github.com/suibotsukuiki/RPGMakerMZ/blob/main/Sbm_KeyPatchForBothLR.js
  * 
- * @help Sbm_ReversibleKeyPatch.js
+ * @help Sbm_KeyPatchForBothLR.js
  *
  * 【概要】
  * このプラグインは、左右兼用のキー配置を適用します。

@@ -1,6 +1,6 @@
 /*
 ===============================================================================
- RPG Maker MZ - Sbm GamingKeyPatch (-.-.-)
+ RPG Maker MZ - Sbm KeyPatchForGamepad (1.0.0)
 ===============================================================================
  Copyright (c) 2021 Suib
  This software is released under the MIT License.
@@ -27,7 +27,7 @@
  * @type struct<KeyMapDpad>[]
  * @default []
  * 
- * @help Sbm_GamingKeyPatch.js
+ * @help Sbm_KeyPatchForGamepad.js
  *
  * -- Summary --
  * This plugin assigns any key settings to the gamepad.
@@ -156,7 +156,7 @@
  * @type struct<KeyMapDpad>[]
  * @default []
  * 
- * @help Sbm_GamingKeyPatch.js
+ * @help Sbm_KeyPatchForGamepad.js
  *
  * 【概要】
  * このプラグインは、ゲームパッドの各ボタンに任意のキー設定を割り当てます。
