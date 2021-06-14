@@ -26,7 +26,7 @@
  * <Keyboard>
  * - W          : pagedown  -> up arrow
  * - Alt        : control   -> alt
- * <NumKeypad>
+ * <Numpad>
  * - 0          : escape    -> shift
  * - 2          : down      -> cancel
  * - 4          : left      -> pageup
@@ -41,7 +41,7 @@
  * - R          : escape
  * - Ins/Del    : escape/ok
  * - Home/End   : ok/escape
- * <NumKeypad>
+ * <Numpad>
  * - 0/.        : shift/control
  * - 1/2/3      : ok/cancel/menu
  * - 4/6        : pageup/pagedown 

@@ -14,7 +14,7 @@
  * @author Suib
  * @url https://github.com/suibotsukuiki/RPGMakerMZ/blob/main/Sbm_KeyPatchForNumpad.js
  * @base PluginCommonBase
- * @orderAfter Sbm_ReversibleKeyPatch
+ * @orderAfter Sbm_KeyPatchForBothLR
  *
  * @param keyMapArrNumber
  * @text keySettings:Number
@@ -141,7 +141,7 @@
  * @author 水部
  * @url https://github.com/suibotsukuiki/RPGMakerMZ/blob/main/Sbm_KeyPatchForNumpad.js
  * @base PluginCommonBase
- * @orderAfter Sbm_ReversibleKeyPatch
+ * @orderAfter Sbm_KeyPatchForBothLR
  *
  * @param keyMapArrNumber
  * @text キー設定：数字(複数選択可)

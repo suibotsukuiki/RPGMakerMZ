@@ -14,6 +14,7 @@
  * @author Suib
  * @url https://github.com/suibotsukuiki/RPGMakerMZ/blob/main/Sbm_KeyPatchForGamepad.js
  * @base PluginCommonBase
+ * @orderAfter Sbm_KeyPatchForBothLR
  *
  * @param keyMapArrButton
  * @text keySettings:Button
@@ -143,6 +144,7 @@
  * @author 水部
  * @url https://github.com/suibotsukuiki/RPGMakerMZ/blob/main/Sbm_KeyPatchForGamepad.js
  * @base PluginCommonBase
+ * @orderAfter Sbm_KeyPatchForBothLR
  *
  * @param keyMapArrButton
  * @text キー設定：ボタン(複数選択可)
